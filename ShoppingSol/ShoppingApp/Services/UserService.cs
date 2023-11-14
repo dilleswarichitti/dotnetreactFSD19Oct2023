@@ -4,7 +4,7 @@ using ShoppingApp.Models.DTO;
 using System.Security.Cryptography;
 using System.Text;
 
-namespace ShoppingApp.Repositories
+namespace ShoppingApp.Services
 {
     public class UserService : IUserService
     {

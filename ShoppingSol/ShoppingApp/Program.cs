@@ -34,6 +34,7 @@ namespace ShoppingApp
             {
                 opts.UseSqlServer(builder.Configuration.GetConnectionString("Shoppingconn"));
             });
+            builder.Logging.AddLog4Net();
 
             builder.Services.AddScoped<IRepository<string, User>, UserRepository>();
             builder.Services.AddScoped<IRepository<int, Product>, ProductRepository>();
@@ -42,6 +43,7 @@ namespace ShoppingApp
             builder.Services.AddScoped<IUserService, UserService>();
             builder.Services.AddScoped<ITokenService, TokenService>();
             builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<ICartService, CartService>();
 
             var app = builder.Build();
 

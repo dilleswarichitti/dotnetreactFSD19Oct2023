@@ -248,3 +248,6 @@ C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0
 C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\log4net.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\log4net.config

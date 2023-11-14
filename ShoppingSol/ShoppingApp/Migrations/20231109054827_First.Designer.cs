@@ -12,8 +12,8 @@ using ShoppingApp.Context;
 namespace ShoppingApp.Migrations
 {
     [DbContext(typeof(ShoppingContext))]
-    [Migration("20231106065639_updateuser")]
-    partial class updateuser
+    [Migration("20231109054827_First")]
+    partial class First
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -54,15 +54,12 @@ namespace ShoppingApp.Migrations
                     b.Property<float>("Price")
                         .HasColumnType("real");
 
-                    b.Property<int>("ProductId")
-                        .HasColumnType("int");
-
                     b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.HasKey("CartNumber", "Product_Id");
 
-                    b.HasIndex("ProductId");
+                    b.HasIndex("Product_Id");
 
                     b.ToTable("CartItems");
                 });
@@ -80,7 +77,6 @@ namespace ShoppingApp.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Picture")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<float>("Price")
@@ -131,7 +127,7 @@ namespace ShoppingApp.Migrations
                 {
                     b.HasOne("ShoppingApp.Models.Product", "Product")
                         .WithMany("CartItems")
-                        .HasForeignKey("ProductId")
+                        .HasForeignKey("Product_Id")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
