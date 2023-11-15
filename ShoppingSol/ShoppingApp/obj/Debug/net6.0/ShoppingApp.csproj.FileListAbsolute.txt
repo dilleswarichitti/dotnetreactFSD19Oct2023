@@ -251,3 +251,8 @@ C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Microsoft.AspNetCore.Au
 C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\log4net.dll
 C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
 C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\log4net.config
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\TRAINING\Web\ShoppingSol\ShoppingApp\obj\Debug\net6.0\ShoppingApp.MvcApplicationPartsAssemblyInfo.cs

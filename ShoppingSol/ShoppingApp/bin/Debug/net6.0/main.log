@@ -10,3 +10,48 @@ FROM [Products] AS [p]
 SELECT [p].[Id], [p].[Name], [p].[Picture], [p].[Price], [p].[Quantity]
 FROM [Products] AS [p]
 2023-11-14 10:36:06,462 [.NET ThreadPool Worker] INFO ShoppingApp.Controllers.ProductController.Get[29] - Product listed
+2023-11-14 11:46:23,970 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 11:46:24,469 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 11:46:24,748 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 11:46:24,769 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 11:50:36,233 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 11:50:36,416 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 11:50:36,426 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 11:50:36,437 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 11:58:55,570 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 11:58:55,871 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 11:58:55,904 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 11:58:55,906 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 12:02:41,891 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 12:02:42,043 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:02:42,062 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:02:42,069 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 12:07:35,552 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 12:07:35,773 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:07:35,785 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:07:35,789 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 12:10:55,459 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 12:10:55,578 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:10:55,586 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:10:55,590 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 12:17:29,935 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 12:17:30,051 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:17:30,057 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:17:30,061 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 12:19:17,679 [1] INFO Microsoft.Hosting.Lifetime.?[?] - Now listening on: http://localhost:5240
+2023-11-14 12:19:17,786 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Application started. Press Ctrl+C to shut down.
+2023-11-14 12:19:17,795 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Hosting environment: Development
+2023-11-14 12:19:17,798 [1] INFO Microsoft.Hosting.Lifetime.OnApplicationStarted[0] - Content root path: C:\TRAINING\Web\ShoppingSol\ShoppingApp\
+2023-11-14 12:19:51,377 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 12:19:55,825 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (286ms) [Parameters=[@__key_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(2) [u].[Username], [u].[Key], [u].[Password], [u].[Role]
+FROM [Users] AS [u]
+WHERE [u].[Username] = @__key_0
+2023-11-14 12:22:43,850 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Infrastructure.?[?] - Entity Framework Core 6.0.24 initialized 'ShoppingContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.24' with options: None
+2023-11-14 12:22:44,560 [.NET ThreadPool Worker] INFO Microsoft.EntityFrameworkCore.Database.Command.?[?] - Executed DbCommand (79ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (DbType = Single), @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Products] ([Name], [Picture], [Price], [Quantity])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Products]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
