@@ -1,14 +1,17 @@
 ﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using ShoppingApp.Exceptions;
 using ShoppingApp.Interface;
 using ShoppingApp.Models;
+using System.Net.Mime;
 
 namespace ShoppingApp.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [EnableCors("reactApp")]
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
@@ -36,8 +39,11 @@ namespace ShoppingApp.Controllers
             }
             return BadRequest(errorMessage);
         }
-        [Authorize(Roles ="admin")]
+        //[Authorize(Roles ="admin")]
         [HttpPost]
+        [Consumes(MediaTypeNames.Application.Json)]
+        [ProducesResponseType(typeof(Product),StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
         public ActionResult Create(Product product)
         {
             string errorMessage = string.Empty;

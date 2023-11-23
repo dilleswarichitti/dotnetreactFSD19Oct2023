@@ -21,7 +21,6 @@ namespace HotelAPI.Services
             }
             return null;
         }
-
         public Hotel Delete(Hotel hotel)
         {
             var hotels = _hotelRepository.GetAll().FirstOrDefault(e => e.Id == hotel.Id);
