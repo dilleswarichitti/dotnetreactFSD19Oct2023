@@ -31,13 +31,15 @@ function RegisterUser(){
             return;
         }
         
-        axios.post("http://localhost:5240/api/Customer",{
+        axios.post("http://localhost:5240/api/Customer/Login",{
             username: username,
             role:	role,
             password:password
     })
         .then((userData)=>{
-            console.log(userData)
+            var token = userData.data.token;
+            localStorage.setItem("token",token);
+
         })
         .catch((err)=>{
             console.log(err)
@@ -54,7 +56,7 @@ function RegisterUser(){
             <input type="password" className="form-control" value={password}
                     onChange={(e)=>{setPassword(e.target.value)}}/>
             <label className="form-control">Re-Type Password</label>
-            <input type="password" className="form-control" value={repassword}
+            <input type="text" className="form-control" value={repassword}
                     onChange={(e)=>{setrePassword(e.target.value)}}/>
             <label className="form-control">Role</label>
             <select className="form-select" onChange={(e)=>{setRole(e.target.value)}}>

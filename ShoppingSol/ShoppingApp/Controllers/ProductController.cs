@@ -39,7 +39,7 @@ namespace ShoppingApp.Controllers
             }
             return BadRequest(errorMessage);
         }
-        //[Authorize(Roles ="admin")]
+        [Authorize(Roles ="admin")]
         [HttpPost]
         [Consumes(MediaTypeNames.Application.Json)]
         [ProducesResponseType(typeof(Product),StatusCodes.Status200OK)]
